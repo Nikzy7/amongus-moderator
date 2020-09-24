@@ -1,2 +1,3 @@
 # among-us-moderator
-#amongus-moderator 
+
+Hosted with :heart: on Heroku.
