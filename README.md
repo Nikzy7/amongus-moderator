@@ -1,27 +1,67 @@
+[![FrontPanel](https://modusgames.com/wp-content/uploads/2019/05/Discord_Banner_820x312.jpg)]()
 # Among Us Moderator
 
-Among Us Moderator is a Discord bot built to help Among Us voice channels. This bot was created using NodeJS, Discord webhooks, and Discord.js.
+> A discord bot made to moderate ingame participants over the voice channel
+
+> #Node #DiscordWebhooks #AmongUs #GUIconsole
+
+<br>
+
+[![npm version](https://badge.fury.io/js/discord.js.png)](https://badge.fury.io/js/discord.js) [![Open Source Love png1](https://badges.frapsoft.com/os/v1/open-source.png?v=103)](https://github.com/ellerbrock/open-source-badges/) [![Issues]()](https://github.com/Nikzy7/amongus-moderator/issues) [![Pending pull requests]()](https://github.com/Nikzy7/amongus-moderator/pulls)
+
+
 <div align="center">
-  <img  width="300" height ="220" src="imposter.gif">
-</div>
+  <img  width="350" height ="250" src="imposter.gif">
+</div><br><br>
+
+
+## Getting Started
+-----
+Built to mute all the participants present in a specific voice channel in a discord server. Created using Node.js, the GUI console used to mute the participants leverages the discord webhooks and discord.js v12.
+
+- Clone or download the repository to get started
+- Should have node installed on your local system
+- A discord server with available voice channels
+
+
+### Clone
+
+- Clone this repo to your local machine using `https://github.com/Nikzy7/amongus-moderator.git`
+
+![gitClone](gitClone30.png)
 
 ## Usage
-First, type:
+- After cloning the repository
 
-`git clone https://github.com/Nikzy7/amongus-moderator.git`<br>
-`cd amongus-moderator`
-
-Then, navigate to index.js and add your own bot [token](https://www.writebots.com/discord-bot-token/). Add your [server's Among Us voice channel ID](https://support.discord.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID-) by right clicking on the channel with developer tools on into index.js. Create a text channel and add a [webhook](https://support.discord.com/hc/en-us/articles/228383668-Intro-to-Webhooks). Then, copy the webhook's URL and paste it into console.py. 
-
-Then run the bot:
-
-`node index.js`
 
 <div align="center">
   <img src="online.PNG">
 </div>
+<br>
 
-## Commands
+1. Navigate to __index.js__ to add your bot token.
+2. Add your discord voice channel's ID
+3. Create a text channel in the same server and add a webhook.
+4. Paste your webhook's URL into __console.py__
+5. Add your webhook's name in the __index.js__ 'message.author.username'
+5. Host it on Heroku
+
+### Commands
+```
+/muteall # To mute all users
+```
+```
+/unmuteall # To unmute all users
+```
+<br>
+
+---
+
+## Contributing [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/dwyl/esta/issues)
+- Contributions are heartly welcomed, play and tweak with the project and submit your pull requests.
+
+
+## Commands Used by the Webhook
 
 #### `/muteall`
  - Mutes everyone in a channel
@@ -29,10 +69,11 @@ Then run the bot:
 #### `/unmuteall`
   - Unmutes everyone in a channel
 
-## Contact
+## Need Help ?
 
 Contact me at nikzy7@protonmail.com <br>
 For other ways to contact me , check out my profile [here.](https://github.com/Nikzy7)
 
-----------------------
-Hosted with a lot of :heart: on Heroku.
+
+---
+Hosted with a lot of ❤️ on Heroku.
