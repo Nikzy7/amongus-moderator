@@ -46,7 +46,7 @@ Built to mute all the participants present in a specific voice channel in a disc
 5. Add your webhook's name in the __index.js__ 'message.author.username'
 5. Host it on Heroku
 
-### Commands
+### Commands used by the Webhook
 ```
 /muteall # To mute all users
 ```
@@ -60,14 +60,6 @@ Built to mute all the participants present in a specific voice channel in a disc
 ## Contributing [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/dwyl/esta/issues)
 - Contributions are heartly welcomed, play and tweak with the project and submit your pull requests.
 
-
-## Commands Used by the Webhook
-
-#### `/muteall`
- - Mutes everyone in a channel
-
-#### `/unmuteall`
-  - Unmutes everyone in a channel
 
 ## Need Help ?
 
