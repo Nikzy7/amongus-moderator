@@ -1,4 +1,4 @@
-# Among Us Moderator
+# Among Us Moderator -- Mute All Participants
 Built to mute all the participants present in a specific voice channel in a discord server. Created using Node.js, the GUI console used to mute the participants leverages the discord webhooks and discord.js v12.
 
 <div align="center">
