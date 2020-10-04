@@ -1,5 +1,6 @@
 [![FrontPanel](https://modusgames.com/wp-content/uploads/2019/05/Discord_Banner_820x312.jpg)]()
 # Among Us Moderator
+
 > A discord bot made to moderate ingame participants over the voice channel
 
 > #Node #DiscordWebhooks #AmongUs #GUIconsole
@@ -8,7 +9,7 @@
 
 [![npm version](https://badge.fury.io/js/discord.js.png)](https://badge.fury.io/js/discord.js) [![Open Source Love png1](https://badges.frapsoft.com/os/v1/open-source.png?v=103)](https://github.com/ellerbrock/open-source-badges/) [![Issues]()](https://github.com/Nikzy7/amongus-moderator/issues) [![Pending pull requests]()](https://github.com/Nikzy7/amongus-moderator/pulls)
 
-<br>
+
 <div align="center">
   <img  width="350" height ="250" src="imposter.gif">
 </div><br><br>
@@ -22,6 +23,7 @@ Built to mute all the participants present in a specific voice channel in a disc
 - Should have node installed on your local system
 - A discord server with available voice channels
 
+
 ### Clone
 
 - Clone this repo to your local machine using `https://github.com/Nikzy7/amongus-moderator.git`
@@ -30,6 +32,7 @@ Built to mute all the participants present in a specific voice channel in a disc
 
 ## Usage
 - After cloning the repository
+
 
 <div align="center">
   <img src="online.PNG">
@@ -57,11 +60,20 @@ Built to mute all the participants present in a specific voice channel in a disc
 ## Contributing [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/dwyl/esta/issues)
 - Contributions are heartly welcomed, play and tweak with the project and submit your pull requests.
 
-## Need Help?
-1.  Check out my profile for my contact info
-2.  Mail your queries at nikzy7@protonmail.com
 
-I'll be happy to help 😄️
+## Commands Used by the Webhook
+
+#### `/muteall`
+ - Mutes everyone in a channel
+
+#### `/unmuteall`
+  - Unmutes everyone in a channel
+
+## Need Help ?
+
+Contact me at nikzy7@protonmail.com <br>
+For other ways to contact me , check out my profile [here.](https://github.com/Nikzy7)
+
 
 ---
 Hosted with a lot of ❤️ on Heroku.
