@@ -7,7 +7,7 @@
 
 <br>
 
-[![npm version](https://badge.fury.io/js/discord.js.png)](https://badge.fury.io/js/discord.js) [![Open Source Love png1](https://badges.frapsoft.com/os/v1/open-source.png?v=103)](https://github.com/ellerbrock/open-source-badges/) [![Issues]()](https://github.com/Nikzy7/amongus-moderator/issues) [![Pending pull requests]()](https://github.com/Nikzy7/amongus-moderator/pulls)
+[![npm version](https://badge.fury.io/js/discord.js.png)](https://badge.fury.io/js/discord.js) [![Open Source Love png1](https://badges.frapsoft.com/os/v1/open-source.png?v=103)](https://github.com/ellerbrock/open-source-badges/) [![Issues](https://img.shields.io/github/issues/Nikzy7/amongus-moderator)](https://github.com/Nikzy7/amongus-moderator/issues) [![PRs Closed](https://img.shields.io/github/issues-pr-closed/Nikzy7/amongus-moderator)](https://github.com/Nikzy7/amongus-moderator/pulls)
 
 
 <div align="center">
