@@ -1,19 +1,37 @@
 # Among Us Moderator
-Built to mute all the participants present in a specific voice channel in a discord server. Created using Node.js, the GUI console used to mute the participants leverages the discord webhooks and discord.js v12.
 
+Among Us Moderator is a Discord bot built to help Among Us voice channels. This bot was created using NodeJS, Discord webhooks, and Discord.js.
 <div align="center">
   <img  width="300" height ="220" src="imposter.gif">
 </div>
 
-## Want to implement it in your own server?
-In the index.js file, add your own bot's token, your server's voice channel ID and in the console.py file (inside console folder) add your text channel's webhook URL. Also don't forget to add your webhook's name in the index.js message.author.username. Then all you need to do is to host it on heroku !
+## Usage
+First, type:
+
+`git clone https://github.com/Nikzy7/amongus-moderator.git
+cd amongus-moderator`
+
+Then, navigate to index.js and add your own bot [token](https://www.writebots.com/discord-bot-token/). Add your [server's Among Us voice channel ID](https://support.discord.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID-) by right clicking on the channel with developer tools on into index.js. Create a text channel and add a [webhook](https://support.discord.com/hc/en-us/articles/228383668-Intro-to-Webhooks). Then, copy the webhook's URL and paste it into console.py. 
+
+Then run the bot:
+
+`node index.js`
 
 <div align="center">
   <img src="online.PNG">
 </div>
 
-## Need Help?
-Check out my profile for my contact info. I'll be happy to help :smile:
+## Commands
+
+#### `/muteall`
+ - Mutes everyone in a channel
+
+#### /unmuteall
+  - Unmutes everyone in a channel
+
+## Contact
+
+Contact me at nikzy7@protonmail.com
 
 ----------------------
 Hosted with a lot of :heart: on Heroku.
