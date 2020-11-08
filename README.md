@@ -31,7 +31,7 @@ Built to mute all the participants present in a specific voice channel in a disc
 ![gitClone](gitClone30.png)
 
 ## Usage
-- After cloning the repository
+  After cloning the repository
 
 
 <div align="center">
