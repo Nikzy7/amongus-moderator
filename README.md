@@ -30,6 +30,9 @@ Built to mute all the participants present in a specific voice channel in a disc
 
 ![gitClone](gitClone30.png)
 
+### Install Dependencies
+
+- After Cloning run  `npm install` in the Root-Directory of the project, to install the required node_modules.
 ## Usage
   After cloning the repository
 
