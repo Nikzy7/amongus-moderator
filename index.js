@@ -1,5 +1,5 @@
-require("dotenv").config();
 const { Client } = require("discord.js");
+require("dotenv").config();
 
 // Declares our bot,
 // the disableEveryone prevents the client to ping @everyone
